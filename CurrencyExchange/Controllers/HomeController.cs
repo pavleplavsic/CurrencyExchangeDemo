@@ -18,8 +18,6 @@ namespace CurrencyExchange.Controllers
         public ActionResult Index()
         {
 
-            //CurrencyExchangeRepository repository = new CurrencyExchangeRepository();
-            //var aa = repository.GetRateStats((new DateTime[3] { new DateTime(2019, 01, 01), new DateTime(2019, 01, 02), new DateTime(2019, 01, 03) }).ToList(), "USD", "CAD");
             ViewBag.Title = "Home Page";
 
             return View();
